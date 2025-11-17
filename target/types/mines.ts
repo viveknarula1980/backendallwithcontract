@@ -1,0 +1,385 @@
+/**
+ * Program IDL in camelCase format in order to be used in JS/TS.
+ *
+ * Note that this is only a type helper and is not the actual IDL. The original
+ * IDL can be found at `target/idl/mines.json`.
+ */
+export type Mines = {
+  "address": "EJxuRyEp18PhxmpjxGgBdyRd8NqHMbGkY4ABznTdvqpd",
+  "metadata": {
+    "name": "mines",
+    "version": "0.1.0",
+    "spec": "0.1.0",
+    "description": "Created with Anchor"
+  },
+  "instructions": [
+    {
+      "name": "initialize",
+      "docs": [
+        "One-time initializer: creates the Vault PDA (lamports-only account).",
+        "Accounts:",
+        "- authority: signer (pays rent)",
+        "- vault: PDA [\"vault\"]",
+        "- system_program"
+      ],
+      "discriminator": [
+        175,
+        175,
+        109,
+        31,
+        13,
+        152,
+        155,
+        237
+      ],
+      "accounts": [
+        {
+          "name": "authority",
+          "writable": true,
+          "signer": true
+        },
+        {
+          "name": "vault",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  118,
+                  97,
+                  117,
+                  108,
+                  116
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "systemProgram",
+          "address": "11111111111111111111111111111111"
+        }
+      ],
+      "args": []
+    },
+    {
+      "name": "lock",
+      "docs": [
+        "User-paid lock: moves bet lamports into the vault and records the pending round.",
+        "Accounts:",
+        "- player: signer",
+        "- vault: PDA [\"vault\"] (MUST exist; created via `initialize`)",
+        "- pending: PDA [\"round\", player, nonce_le_u64]",
+        "- system_program"
+      ],
+      "discriminator": [
+        21,
+        19,
+        208,
+        43,
+        237,
+        62,
+        255,
+        87
+      ],
+      "accounts": [
+        {
+          "name": "player",
+          "writable": true,
+          "signer": true
+        },
+        {
+          "name": "vault",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  118,
+                  97,
+                  117,
+                  108,
+                  116
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "pending",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  114,
+                  111,
+                  117,
+                  110,
+                  100
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "player"
+              },
+              {
+                "kind": "arg",
+                "path": "nonce"
+              }
+            ]
+          }
+        },
+        {
+          "name": "systemProgram",
+          "address": "11111111111111111111111111111111"
+        }
+      ],
+      "args": [
+        {
+          "name": "betLamports",
+          "type": "u64"
+        },
+        {
+          "name": "rows",
+          "type": "u8"
+        },
+        {
+          "name": "cols",
+          "type": "u8"
+        },
+        {
+          "name": "mines",
+          "type": "u8"
+        },
+        {
+          "name": "nonce",
+          "type": "u64"
+        },
+        {
+          "name": "expiryUnix",
+          "type": "i64"
+        }
+      ]
+    },
+    {
+      "name": "resolve",
+      "docs": [
+        "Server-paid resolve: pays from vault PDA to player (backend decides payout).",
+        "Accounts:",
+        "- player: writable (receiver)",
+        "- vault: PDA [\"vault\"] (signs with seeds to pay)",
+        "- admin: unchecked (kept to match backend account array)",
+        "- pending: round pda (closed to player)",
+        "- system_program",
+        "- instructions sysvar (kept for compatibility with your WS/ed25519 flow; not enforced here)"
+      ],
+      "discriminator": [
+        246,
+        150,
+        236,
+        206,
+        108,
+        63,
+        58,
+        10
+      ],
+      "accounts": [
+        {
+          "name": "player",
+          "writable": true,
+          "relations": [
+            "pending"
+          ]
+        },
+        {
+          "name": "vault",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  118,
+                  97,
+                  117,
+                  108,
+                  116
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "admin"
+        },
+        {
+          "name": "pending",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  114,
+                  111,
+                  117,
+                  110,
+                  100
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "player"
+              },
+              {
+                "kind": "account",
+                "path": "pending.nonce",
+                "account": "pending"
+              }
+            ]
+          }
+        },
+        {
+          "name": "systemProgram",
+          "address": "11111111111111111111111111111111"
+        },
+        {
+          "name": "instructions",
+          "address": "Sysvar1nstructions1111111111111111111111111"
+        }
+      ],
+      "args": [
+        {
+          "name": "checksum",
+          "type": "u8"
+        },
+        {
+          "name": "payout",
+          "type": "u64"
+        },
+        {
+          "name": "ed25519InstrIndex",
+          "type": "u8"
+        }
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "name": "pending",
+      "discriminator": [
+        36,
+        180,
+        147,
+        170,
+        72,
+        175,
+        173,
+        126
+      ]
+    },
+    {
+      "name": "vault",
+      "discriminator": [
+        211,
+        8,
+        232,
+        43,
+        2,
+        152,
+        117,
+        119
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "code": 6000,
+      "name": "badBet",
+      "msg": "Invalid bet amount"
+    },
+    {
+      "code": 6001,
+      "name": "badBoard",
+      "msg": "Invalid board size"
+    },
+    {
+      "code": 6002,
+      "name": "badMines",
+      "msg": "Invalid number of mines"
+    },
+    {
+      "code": 6003,
+      "name": "badChecksum",
+      "msg": "Checksum mismatch"
+    },
+    {
+      "code": 6004,
+      "name": "alreadySettled",
+      "msg": "Round already settled"
+    },
+    {
+      "code": 6005,
+      "name": "playerMismatch",
+      "msg": "Pending player mismatch"
+    },
+    {
+      "code": 6006,
+      "name": "vaultMismatch",
+      "msg": "Vault PDA mismatch"
+    }
+  ],
+  "types": [
+    {
+      "name": "pending",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "player",
+            "type": "pubkey"
+          },
+          {
+            "name": "betLamports",
+            "type": "u64"
+          },
+          {
+            "name": "rows",
+            "type": "u8"
+          },
+          {
+            "name": "cols",
+            "type": "u8"
+          },
+          {
+            "name": "mines",
+            "type": "u8"
+          },
+          {
+            "name": "nonce",
+            "type": "u64"
+          },
+          {
+            "name": "expiredAt",
+            "type": "i64"
+          },
+          {
+            "name": "settled",
+            "type": "bool"
+          }
+        ]
+      }
+    },
+    {
+      "name": "vault",
+      "type": {
+        "kind": "struct",
+        "fields": []
+      }
+    }
+  ]
+};

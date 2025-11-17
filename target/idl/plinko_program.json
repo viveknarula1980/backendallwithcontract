@@ -1,0 +1,526 @@
+{
+  "address": "F2ifZuckPtWFrGCxHpF968CVuaMihW9WggdPgbS9nsH",
+  "metadata": {
+    "name": "plinko_program",
+    "version": "0.1.0",
+    "spec": "0.1.0",
+    "description": "Created with Anchor"
+  },
+  "instructions": [
+    {
+      "name": "init_admin",
+      "discriminator": [
+        97,
+        65,
+        97,
+        27,
+        200,
+        206,
+        72,
+        219
+      ],
+      "accounts": [
+        {
+          "name": "authority",
+          "writable": true,
+          "signer": true
+        },
+        {
+          "name": "admin_config",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  97,
+                  100,
+                  109,
+                  105,
+                  110
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
+        }
+      ],
+      "args": [
+        {
+          "name": "admin_pubkey",
+          "type": {
+            "array": [
+              "u8",
+              32
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "init_vault",
+      "discriminator": [
+        77,
+        79,
+        85,
+        150,
+        33,
+        217,
+        52,
+        106
+      ],
+      "accounts": [
+        {
+          "name": "payer",
+          "writable": true,
+          "signer": true
+        },
+        {
+          "name": "vault",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  118,
+                  97,
+                  117,
+                  108,
+                  116
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
+        }
+      ],
+      "args": []
+    },
+    {
+      "name": "lock",
+      "discriminator": [
+        21,
+        19,
+        208,
+        43,
+        237,
+        62,
+        255,
+        87
+      ],
+      "accounts": [
+        {
+          "name": "player",
+          "writable": true,
+          "signer": true
+        },
+        {
+          "name": "vault",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  118,
+                  97,
+                  117,
+                  108,
+                  116
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "pending_round",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  98,
+                  101,
+                  116
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "player"
+              },
+              {
+                "kind": "arg",
+                "path": "args.nonce"
+              }
+            ]
+          }
+        },
+        {
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
+        }
+      ],
+      "args": [
+        {
+          "name": "args",
+          "type": {
+            "defined": {
+              "name": "LockArgs"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "resolve",
+      "discriminator": [
+        246,
+        150,
+        236,
+        206,
+        108,
+        63,
+        58,
+        10
+      ],
+      "accounts": [
+        {
+          "name": "player",
+          "writable": true
+        },
+        {
+          "name": "vault",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  118,
+                  97,
+                  117,
+                  108,
+                  116
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "admin_config",
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  97,
+                  100,
+                  109,
+                  105,
+                  110
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "pending_round",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  98,
+                  101,
+                  116
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "player"
+              },
+              {
+                "kind": "account",
+                "path": "pending_round.nonce",
+                "account": "PendingRound"
+              }
+            ]
+          }
+        },
+        {
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
+        },
+        {
+          "name": "sysvar_instructions",
+          "address": "Sysvar1nstructions1111111111111111111111111"
+        }
+      ],
+      "args": [
+        {
+          "name": "args",
+          "type": {
+            "defined": {
+              "name": "ResolveArgs"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "name": "AdminConfig",
+      "discriminator": [
+        156,
+        10,
+        79,
+        161,
+        71,
+        9,
+        62,
+        77
+      ]
+    },
+    {
+      "name": "PendingRound",
+      "discriminator": [
+        84,
+        181,
+        229,
+        123,
+        141,
+        87,
+        165,
+        218
+      ]
+    }
+  ],
+  "events": [
+    {
+      "name": "PlinkoLocked",
+      "discriminator": [
+        205,
+        109,
+        249,
+        137,
+        7,
+        152,
+        42,
+        60
+      ]
+    },
+    {
+      "name": "PlinkoResolved",
+      "discriminator": [
+        121,
+        249,
+        4,
+        101,
+        35,
+        255,
+        238,
+        202
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "code": 6000,
+      "name": "InvalidIx",
+      "msg": "Invalid instruction data"
+    },
+    {
+      "code": 6001,
+      "name": "InvalidEd25519",
+      "msg": "Invalid ed25519 pre-instruction"
+    },
+    {
+      "code": 6002,
+      "name": "Expired",
+      "msg": "Expired signature"
+    },
+    {
+      "code": 6003,
+      "name": "BadParams",
+      "msg": "Bad params"
+    },
+    {
+      "code": 6004,
+      "name": "BadPayout",
+      "msg": "Payout sanity check failed"
+    }
+  ],
+  "types": [
+    {
+      "name": "AdminConfig",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "admin_pubkey",
+            "type": {
+              "array": [
+                "u8",
+                32
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "LockArgs",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "unit_amount",
+            "type": "u64"
+          },
+          {
+            "name": "balls",
+            "type": "u16"
+          },
+          {
+            "name": "rows",
+            "type": "u8"
+          },
+          {
+            "name": "difficulty",
+            "type": "u8"
+          },
+          {
+            "name": "nonce",
+            "type": "u64"
+          },
+          {
+            "name": "expiry_unix",
+            "type": "i64"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PendingRound",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "player",
+            "type": "pubkey"
+          },
+          {
+            "name": "unit_amount",
+            "type": "u64"
+          },
+          {
+            "name": "balls",
+            "type": "u16"
+          },
+          {
+            "name": "rows",
+            "type": "u8"
+          },
+          {
+            "name": "difficulty",
+            "type": "u8"
+          },
+          {
+            "name": "nonce",
+            "type": "u64"
+          },
+          {
+            "name": "expiry_unix",
+            "type": "i64"
+          },
+          {
+            "name": "settled",
+            "type": "bool"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PlinkoLocked",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "player",
+            "type": "pubkey"
+          },
+          {
+            "name": "unit_amount",
+            "type": "u64"
+          },
+          {
+            "name": "balls",
+            "type": "u16"
+          },
+          {
+            "name": "rows",
+            "type": "u8"
+          },
+          {
+            "name": "difficulty",
+            "type": "u8"
+          },
+          {
+            "name": "nonce",
+            "type": "u64"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PlinkoResolved",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "player",
+            "type": "pubkey"
+          },
+          {
+            "name": "payout",
+            "type": "u64"
+          },
+          {
+            "name": "nonce",
+            "type": "u64"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ResolveArgs",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "checksum",
+            "type": "u8"
+          },
+          {
+            "name": "payout",
+            "type": "u64"
+          },
+          {
+            "name": "ed25519_instr_index",
+            "type": "u8"
+          }
+        ]
+      }
+    }
+  ]
+}

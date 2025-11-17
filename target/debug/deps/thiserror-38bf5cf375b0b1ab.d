@@ -1,0 +1,11 @@
+/home/lenovo/coinflip_new/coinflip_new/target/debug/deps/thiserror-38bf5cf375b0b1ab.d: /home/lenovo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.12/src/lib.rs /home/lenovo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.12/src/aserror.rs /home/lenovo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.12/src/display.rs /home/lenovo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.12/src/provide.rs /home/lenovo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.12/src/var.rs
+
+/home/lenovo/coinflip_new/coinflip_new/target/debug/deps/libthiserror-38bf5cf375b0b1ab.rlib: /home/lenovo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.12/src/lib.rs /home/lenovo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.12/src/aserror.rs /home/lenovo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.12/src/display.rs /home/lenovo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.12/src/provide.rs /home/lenovo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.12/src/var.rs
+
+/home/lenovo/coinflip_new/coinflip_new/target/debug/deps/libthiserror-38bf5cf375b0b1ab.rmeta: /home/lenovo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.12/src/lib.rs /home/lenovo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.12/src/aserror.rs /home/lenovo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.12/src/display.rs /home/lenovo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.12/src/provide.rs /home/lenovo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.12/src/var.rs
+
+/home/lenovo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.12/src/lib.rs:
+/home/lenovo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.12/src/aserror.rs:
+/home/lenovo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.12/src/display.rs:
+/home/lenovo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.12/src/provide.rs:
+/home/lenovo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/thiserror-2.0.12/src/var.rs:

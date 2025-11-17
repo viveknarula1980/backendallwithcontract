@@ -1,0 +1,4176 @@
+   6.307062400s  INFO prepare_target{force=false package_id=allgame v0.1.0 (\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\programs\allgame) target="allgame"}: cargo::core::compiler::fingerprint: fingerprint error for allgame v0.1.0 (\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\programs\allgame)/Check { test: false }/TargetInner { ..: lib_target("allgame", ["cdylib", "lib"], "\\\\wsl.localhost\\Ubuntu\\home\\lenovo\\projects\\coinflip\\programs\\allgame\\src\\lib.rs", Edition2021) }
+   6.307980300s  INFO prepare_target{force=false package_id=allgame v0.1.0 (\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\programs\allgame) target="allgame"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\allgame-dfbd45c93030512b\lib-allgame`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   6.437278400s  INFO prepare_target{force=false package_id=anchor-lang v0.31.1 target="anchor_lang"}: cargo::core::compiler::fingerprint: fingerprint error for anchor-lang v0.31.1/Check { test: false }/TargetInner { ..: lib_target("anchor_lang", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\anchor-lang-0.31.1\\src\\lib.rs", Edition2021) }
+   6.437427900s  INFO prepare_target{force=false package_id=anchor-lang v0.31.1 target="anchor_lang"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\anchor-lang-aeb4385bc9b81069\lib-anchor_lang`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   8.401462300s  INFO prepare_target{force=false package_id=base64 v0.21.7 target="base64"}: cargo::core::compiler::fingerprint: fingerprint error for base64 v0.21.7/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("base64", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\base64-0.21.7\\src\\lib.rs", Edition2018) }
+   8.401549100s  INFO prepare_target{force=false package_id=base64 v0.21.7 target="base64"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\base64-26116d9e51192c30\lib-base64`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   8.422142300s  INFO prepare_target{force=false package_id=bincode v1.3.3 target="bincode"}: cargo::core::compiler::fingerprint: fingerprint error for bincode v1.3.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("bincode", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\bincode-1.3.3\\src\\lib.rs", Edition2015) }
+   8.422251300s  INFO prepare_target{force=false package_id=bincode v1.3.3 target="bincode"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\bincode-2860f567c25c1490\lib-bincode`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   8.446945500s  INFO prepare_target{force=false package_id=serde v1.0.219 target="serde"}: cargo::core::compiler::fingerprint: fingerprint error for serde v1.0.219/Check { test: false }/TargetInner { ..: lib_target("serde", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde-1.0.219\\src\\lib.rs", Edition2018) }
+   8.447038000s  INFO prepare_target{force=false package_id=serde v1.0.219 target="serde"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\serde-81a8b2706562afed\lib-serde`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   8.468331400s  INFO prepare_target{force=false package_id=borsh v0.10.4 target="borsh"}: cargo::core::compiler::fingerprint: fingerprint error for borsh v0.10.4/Check { test: false }/TargetInner { ..: lib_target("borsh", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\borsh-0.10.4\\src\\lib.rs", Edition2018) }
+   8.468432000s  INFO prepare_target{force=false package_id=borsh v0.10.4 target="borsh"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\borsh-37852e8b099c8e7e\lib-borsh`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   8.637110500s  INFO prepare_target{force=false package_id=hashbrown v0.13.2 target="hashbrown"}: cargo::core::compiler::fingerprint: fingerprint error for hashbrown v0.13.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("hashbrown", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\hashbrown-0.13.2\\src\\lib.rs", Edition2021) }
+   8.637209200s  INFO prepare_target{force=false package_id=hashbrown v0.13.2 target="hashbrown"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\hashbrown-44ac224ca56e51f9\lib-hashbrown`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   8.655748600s  INFO prepare_target{force=false package_id=ahash v0.8.12 target="ahash"}: cargo::core::compiler::fingerprint: fingerprint error for ahash v0.8.12/Check { test: false }/TargetInner { ..: lib_target("ahash", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ahash-0.8.12\\src\\lib.rs", Edition2018) }
+   8.655831400s  INFO prepare_target{force=false package_id=ahash v0.8.12 target="ahash"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\ahash-e49222734ede0bdf\lib-ahash`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   8.773194200s  INFO prepare_target{force=false package_id=cfg-if v1.0.1 target="cfg_if"}: cargo::core::compiler::fingerprint: fingerprint error for cfg-if v1.0.1/Check { test: false }/TargetInner { ..: lib_target("cfg_if", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\cfg-if-1.0.1\\src\\lib.rs", Edition2018) }
+   8.773299400s  INFO prepare_target{force=false package_id=cfg-if v1.0.1 target="cfg_if"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\cfg-if-341ddb78744b0618\lib-cfg_if`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   8.796871300s  INFO prepare_target{force=false package_id=once_cell v1.21.3 target="once_cell"}: cargo::core::compiler::fingerprint: fingerprint error for once_cell v1.21.3/Check { test: false }/TargetInner { ..: lib_target("once_cell", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\once_cell-1.21.3\\src\\lib.rs", Edition2021) }
+   8.797028500s  INFO prepare_target{force=false package_id=once_cell v1.21.3 target="once_cell"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\once_cell-e67da64ac1398572\lib-once_cell`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   8.817597600s  INFO prepare_target{force=false package_id=zerocopy v0.8.26 target="zerocopy"}: cargo::core::compiler::fingerprint: fingerprint error for zerocopy v0.8.26/Check { test: false }/TargetInner { ..: lib_target("zerocopy", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zerocopy-0.8.26\\src\\lib.rs", Edition2021) }
+   8.817682900s  INFO prepare_target{force=false package_id=zerocopy v0.8.26 target="zerocopy"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\zerocopy-7b7efda2a09c74c6\lib-zerocopy`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   8.926164700s  INFO prepare_target{force=false package_id=bytemuck v1.23.2 target="bytemuck"}: cargo::core::compiler::fingerprint: fingerprint error for bytemuck v1.23.2/Check { test: false }/TargetInner { ..: lib_target("bytemuck", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\bytemuck-1.23.2\\src\\lib.rs", Edition2018) }
+   8.926323000s  INFO prepare_target{force=false package_id=bytemuck v1.23.2 target="bytemuck"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\bytemuck-75d057009004ee7a\lib-bytemuck`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   8.945252900s  INFO prepare_target{force=false package_id=solana-program v2.3.0 target="solana_program"}: cargo::core::compiler::fingerprint: fingerprint error for solana-program v2.3.0/Check { test: false }/TargetInner { ..: lib_target("solana_program", ["cdylib", "rlib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-program-2.3.0\\src\\lib.rs", Edition2021) }
+   8.945340200s  INFO prepare_target{force=false package_id=solana-program v2.3.0 target="solana_program"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\solana-program-67e70cbf94e1e7f1\lib-solana_program`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   8.967505400s  INFO prepare_target{force=false package_id=blake3 v1.8.2 target="blake3"}: cargo::core::compiler::fingerprint: fingerprint error for blake3 v1.8.2/Check { test: false }/TargetInner { ..: lib_target("blake3", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\blake3-1.8.2\\src\\lib.rs", Edition2021) }
+   8.967654500s  INFO prepare_target{force=false package_id=blake3 v1.8.2 target="blake3"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\blake3-66894b2e377e58c0\lib-blake3`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   8.986420000s  INFO prepare_target{force=false package_id=arrayref v0.3.9 target="arrayref"}: cargo::core::compiler::fingerprint: fingerprint error for arrayref v0.3.9/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("arrayref", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\arrayref-0.3.9\\src\\lib.rs", Edition2015) }
+   8.986506500s  INFO prepare_target{force=false package_id=arrayref v0.3.9 target="arrayref"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\arrayref-3d2c653f0f740560\lib-arrayref`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   9.005359800s  INFO prepare_target{force=false package_id=arrayvec v0.7.6 target="arrayvec"}: cargo::core::compiler::fingerprint: fingerprint error for arrayvec v0.7.6/Check { test: false }/TargetInner { ..: lib_target("arrayvec", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\arrayvec-0.7.6\\src\\lib.rs", Edition2018) }
+   9.005447500s  INFO prepare_target{force=false package_id=arrayvec v0.7.6 target="arrayvec"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\arrayvec-8184f84ca870c4ff\lib-arrayvec`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   9.221402000s  INFO prepare_target{force=false package_id=constant_time_eq v0.3.1 target="constant_time_eq"}: cargo::core::compiler::fingerprint: fingerprint error for constant_time_eq v0.3.1/Check { test: false }/TargetInner { ..: lib_target("constant_time_eq", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\constant_time_eq-0.3.1\\src\\lib.rs", Edition2021) }
+   9.221484300s  INFO prepare_target{force=false package_id=constant_time_eq v0.3.1 target="constant_time_eq"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\constant_time_eq-c30ccfd25937064d\lib-constant_time_eq`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   9.238655200s  INFO prepare_target{force=false package_id=digest v0.10.7 target="digest"}: cargo::core::compiler::fingerprint: fingerprint error for digest v0.10.7/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("digest", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\digest-0.10.7\\src\\lib.rs", Edition2018) }
+   9.238739400s  INFO prepare_target{force=false package_id=digest v0.10.7 target="digest"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\digest-f4811ac40080f2ff\lib-digest`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   9.256287800s  INFO prepare_target{force=false package_id=block-buffer v0.10.4 target="block_buffer"}: cargo::core::compiler::fingerprint: fingerprint error for block-buffer v0.10.4/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("block_buffer", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\block-buffer-0.10.4\\src\\lib.rs", Edition2018) }
+   9.256375800s  INFO prepare_target{force=false package_id=block-buffer v0.10.4 target="block_buffer"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\block-buffer-d7f8edbfff604ab6\lib-block_buffer`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   9.277479400s  INFO prepare_target{force=false package_id=generic-array v0.14.7 target="generic_array"}: cargo::core::compiler::fingerprint: fingerprint error for generic-array v0.14.7/Check { test: false }/TargetInner { ..: lib_target("generic_array", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\generic-array-0.14.7\\src\\lib.rs", Edition2015) }
+   9.277632600s  INFO prepare_target{force=false package_id=generic-array v0.14.7 target="generic_array"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\generic-array-4e92385130d17b0c\lib-generic_array`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   9.295571400s  INFO prepare_target{force=false package_id=typenum v1.18.0 target="typenum"}: cargo::core::compiler::fingerprint: fingerprint error for typenum v1.18.0/Check { test: false }/TargetInner { ..: lib_target("typenum", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\typenum-1.18.0\\src\\lib.rs", Edition2018) }
+   9.295669100s  INFO prepare_target{force=false package_id=typenum v1.18.0 target="typenum"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\typenum-a7a16ebe2cc91789\lib-typenum`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_path
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: git_filter_source_repo
+  21: <unknown>
+  22: <unknown>
+  23: git_midx_writer_dump
+  24: git_filter_source_repo
+  25: git_midx_writer_dump
+  26: BaseThreadInitThunk
+  27: RtlUserThreadStart
+   9.315299100s  INFO prepare_target{force=false package_id=crypto-common v0.1.6 target="crypto_common"}: cargo::core::compiler::fingerprint: fingerprint error for crypto-common v0.1.6/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("crypto_common", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\crypto-common-0.1.6\\src\\lib.rs", Edition2018) }
+   9.315402900s  INFO prepare_target{force=false package_id=crypto-common v0.1.6 target="crypto_common"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\crypto-common-853beb5935d6bab6\lib-crypto_common`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   9.334783500s  INFO prepare_target{force=false package_id=subtle v2.6.1 target="subtle"}: cargo::core::compiler::fingerprint: fingerprint error for subtle v2.6.1/Check { test: false }/TargetInner { ..: lib_target("subtle", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\subtle-2.6.1\\src\\lib.rs", Edition2018) }
+   9.334875600s  INFO prepare_target{force=false package_id=subtle v2.6.1 target="subtle"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\subtle-2730268958f632fc\lib-subtle`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   9.352801600s  INFO prepare_target{force=false package_id=borsh v1.5.7 target="borsh"}: cargo::core::compiler::fingerprint: fingerprint error for borsh v1.5.7/Check { test: false }/TargetInner { ..: lib_target("borsh", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\borsh-1.5.7\\src\\lib.rs", Edition2018) }
+   9.352903100s  INFO prepare_target{force=false package_id=borsh v1.5.7 target="borsh"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\borsh-fd14e3dfb62613eb\lib-borsh`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   9.752553500s  INFO prepare_target{force=false package_id=bs58 v0.5.1 target="bs58"}: cargo::core::compiler::fingerprint: fingerprint error for bs58 v0.5.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("bs58", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\bs58-0.5.1\\src\\lib.rs", Edition2021) }
+   9.752652900s  INFO prepare_target{force=false package_id=bs58 v0.5.1 target="bs58"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\bs58-05699c9485ddc944\lib-bs58`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   9.770593200s  INFO prepare_target{force=false package_id=lazy_static v1.5.0 target="lazy_static"}: cargo::core::compiler::fingerprint: fingerprint error for lazy_static v1.5.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("lazy_static", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\lazy_static-1.5.0\\src\\lib.rs", Edition2015) }
+   9.770678400s  INFO prepare_target{force=false package_id=lazy_static v1.5.0 target="lazy_static"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\lazy_static-e8517806c1c3bf30\lib-lazy_static`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   9.789764200s  INFO prepare_target{force=false package_id=log v0.4.27 target="log"}: cargo::core::compiler::fingerprint: fingerprint error for log v0.4.27/Check { test: false }/TargetInner { ..: lib_target("log", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\log-0.4.27\\src\\lib.rs", Edition2021) }
+   9.789860500s  INFO prepare_target{force=false package_id=log v0.4.27 target="log"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\log-e1099e2b78584c6b\lib-log`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   9.808845400s  INFO prepare_target{force=false package_id=memoffset v0.9.1 target="memoffset"}: cargo::core::compiler::fingerprint: fingerprint error for memoffset v0.9.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("memoffset", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\memoffset-0.9.1\\src\\lib.rs", Edition2015) }
+   9.808934900s  INFO prepare_target{force=false package_id=memoffset v0.9.1 target="memoffset"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\memoffset-e9d494b0eccdcaf6\lib-memoffset`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+  10.014440200s  INFO prepare_target{force=false package_id=num-bigint v0.4.6 target="num_bigint"}: cargo::core::compiler::fingerprint: fingerprint error for num-bigint v0.4.6/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("num_bigint", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\num-bigint-0.4.6\\src\\lib.rs", Edition2021) }
+  10.014528700s  INFO prepare_target{force=false package_id=num-bigint v0.4.6 target="num_bigint"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\num-bigint-a5e679e810280b43\lib-num_bigint`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+  10.034562300s  INFO prepare_target{force=false package_id=num-integer v0.1.46 target="num_integer"}: cargo::core::compiler::fingerprint: fingerprint error for num-integer v0.1.46/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("num_integer", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\num-integer-0.1.46\\src\\lib.rs", Edition2018) }
+  10.034660000s  INFO prepare_target{force=false package_id=num-integer v0.1.46 target="num_integer"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\num-integer-f62cdd53a3c6480f\lib-num_integer`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+  10.052844000s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="num_traits"}: cargo::core::compiler::fingerprint: fingerprint error for num-traits v0.2.19/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("num_traits", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\num-traits-0.2.19\\src\\lib.rs", Edition2021) }
+  10.052931000s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="num_traits"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\num-traits-e9b242710388db03\lib-num_traits`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+  10.175440600s  INFO prepare_target{force=false package_id=rand v0.8.5 target="rand"}: cargo::core::compiler::fingerprint: fingerprint error for rand v0.8.5/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("rand", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rand-0.8.5\\src\\lib.rs", Edition2018) }
+  10.175534000s  INFO prepare_target{force=false package_id=rand v0.8.5 target="rand"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\rand-562c11fad8ca3951\lib-rand`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+  10.196172800s  INFO prepare_target{force=false package_id=rand_chacha v0.3.1 target="rand_chacha"}: cargo::core::compiler::fingerprint: fingerprint error for rand_chacha v0.3.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("rand_chacha", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rand_chacha-0.3.1\\src\\lib.rs", Edition2018) }
+  10.196263000s  INFO prepare_target{force=false package_id=rand_chacha v0.3.1 target="rand_chacha"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\rand_chacha-ba702bbd2b852ea8\lib-rand_chacha`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+  10.216469100s  INFO prepare_target{force=false package_id=ppv-lite86 v0.2.21 target="ppv_lite86"}: cargo::core::compiler::fingerprint: fingerprint error for ppv-lite86 v0.2.21/Check { test: false }/TargetInner { ..: lib_target("ppv_lite86", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ppv-lite86-0.2.21\\src\\lib.rs", Edition2021) }
+  10.216559400s  INFO prepare_target{force=false package_id=ppv-lite86 v0.2.21 target="ppv_lite86"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\ppv-lite86-bc750e9230a9735c\lib-ppv_lite86`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+  10.235406200s  INFO prepare_target{force=false package_id=rand_core v0.6.4 target="rand_core"}: cargo::core::compiler::fingerprint: fingerprint error for rand_core v0.6.4/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("rand_core", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rand_core-0.6.4\\src\\lib.rs", Edition2018) }
+  10.235495800s  INFO prepare_target{force=false package_id=rand_core v0.6.4 target="rand_core"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\rand_core-75f063c9c9862b60\lib-rand_core`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+  10.256205400s  INFO prepare_target{force=false package_id=getrandom v0.2.16 target="getrandom"}: cargo::core::compiler::fingerprint: fingerprint error for getrandom v0.2.16/Check { test: false }/TargetInner { ..: lib_target("getrandom", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\getrandom-0.2.16\\src\\lib.rs", Edition2018) }
+  10.256292300s  INFO prepare_target{force=false package_id=getrandom v0.2.16 target="getrandom"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\getrandom-79441a7da5b00116\lib-getrandom`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+  10.273390100s  INFO prepare_target{force=false package_id=serde_bytes v0.11.17 target="serde_bytes"}: cargo::core::compiler::fingerprint: fingerprint error for serde_bytes v0.11.17/Check { test: false }/TargetInner { ..: lib_target("serde_bytes", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_bytes-0.11.17\\src\\lib.rs", Edition2018) }
+  10.273479700s  INFO prepare_target{force=false package_id=serde_bytes v0.11.17 target="serde_bytes"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\serde_bytes-7986604525514fcc\lib-serde_bytes`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+  10.290731700s  INFO prepare_target{force=false package_id=solana-account-info v2.3.0 target="solana_account_info"}: cargo::core::compiler::fingerprint: fingerprint error for solana-account-info v2.3.0/Check { test: false }/TargetInner { ..: lib_target("solana_account_info", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-account-info-2.3.0\\src\\lib.rs", Edition2021) }
+  10.290820100s  INFO prepare_target{force=false package_id=solana-account-info v2.3.0 target="solana_account_info"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\solana-account-info-332a9fc04c6e7f1e\lib-solana_account_info`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+  10.308867200s  INFO prepare_target{force=false package_id=solana-program-error v2.2.2 target="solana_program_error"}: cargo::core::compiler::fingerprint: fingerprint error for solana-program-error v2.2.2/Check { test: false }/TargetInner { ..: lib_target("solana_program_error", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-program-error-2.2.2\\src\\lib.rs", Edition2021) }
+  10.308954800s  INFO prepare_target{force=false package_id=solana-program-error v2.2.2 target="solana_program_error"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\solana-program-error-134045075221b365\lib-solana_program_error`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+  10.327315400s  INFO prepare_target{force=false package_id=solana-decode-error v2.3.0 target="solana_decode_error"}: cargo::core::compiler::fingerprint: fingerprint error for solana-decode-error v2.3.0/Check { test: false }/TargetInner { ..: lib_target("solana_decode_error", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-decode-error-2.3.0\\src\\lib.rs", Edition2021) }
+  10.327403900s  INFO prepare_target{force=false package_id=solana-decode-error v2.3.0 target="solana_decode_error"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\solana-decode-error-a90a1147171f654e\lib-solana_decode_error`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+  10.344895300s  INFO prepare_target{force=false package_id=solana-instruction v2.3.0 target="solana_instruction"}: cargo::core::compiler::fingerprint: fingerprint error for solana-instruction v2.3.0/Check { test: false }/TargetInner { ..: lib_target("solana_instruction", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-instruction-2.3.0\\src\\lib.rs", Edition2021) }
+  10.344985700s  INFO prepare_target{force=false package_id=solana-instruction v2.3.0 target="solana_instruction"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\solana-instruction-9da5ed8f4275856b\lib-solana_instruction`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+  10.366709000s  INFO prepare_target{force=false package_id=solana-pubkey v2.4.0 target="solana_pubkey"}: cargo::core::compiler::fingerprint: fingerprint error for solana-pubkey v2.4.0/Check { test: false }/TargetInner { ..: lib_target("solana_pubkey", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-pubkey-2.4.0\\src\\lib.rs", Edition2021) }
+  10.366913400s  INFO prepare_target{force=false package_id=solana-pubkey v2.4.0 target="solana_pubkey"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\solana-pubkey-1f117717d3afd27a\lib-solana_pubkey`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+  10.429327000s  INFO prepare_target{force=false package_id=curve25519-dalek v4.1.3 target="curve25519_dalek"}: cargo::core::compiler::fingerprint: fingerprint error for curve25519-dalek v4.1.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("curve25519_dalek", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\curve25519-dalek-4.1.3\\src\\lib.rs", Edition2021) }
+  10.429419000s  INFO prepare_target{force=false package_id=curve25519-dalek v4.1.3 target="curve25519_dalek"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\curve25519-dalek-167f8b0766cd43e3\lib-curve25519_dalek`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_path
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: git_filter_source_repo
+  21: <unknown>
+  22: <unknown>
+  23: git_midx_writer_dump
+  24: git_filter_source_repo
+  25: git_midx_writer_dump
+  26: BaseThreadInitThunk
+  27: RtlUserThreadStart
+  10.447563400s  INFO prepare_target{force=false package_id=cpufeatures v0.2.17 target="cpufeatures"}: cargo::core::compiler::fingerprint: fingerprint error for cpufeatures v0.2.17/Check { test: false }/TargetInner { ..: lib_target("cpufeatures", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\cpufeatures-0.2.17\\src\\lib.rs", Edition2018) }
+  10.447655700s  INFO prepare_target{force=false package_id=cpufeatures v0.2.17 target="cpufeatures"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\cpufeatures-c2e94d1df5ddb9e5\lib-cpufeatures`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_path
+  16: git_filter_source_path
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: git_filter_source_repo
+  21: git_filter_source_repo
+  22: <unknown>
+  23: <unknown>
+  24: git_midx_writer_dump
+  25: git_filter_source_repo
+  26: git_midx_writer_dump
+  27: BaseThreadInitThunk
+  28: RtlUserThreadStart
+  10.749819100s  INFO prepare_target{force=false package_id=zeroize v1.8.1 target="zeroize"}: cargo::core::compiler::fingerprint: fingerprint error for zeroize v1.8.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("zeroize", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeroize-1.8.1\\src\\lib.rs", Edition2021) }
+  10.749903100s  INFO prepare_target{force=false package_id=zeroize v1.8.1 target="zeroize"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\zeroize-9118268c29b3e140\lib-zeroize`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_path
+  16: git_filter_source_path
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: git_filter_source_repo
+  21: git_filter_source_repo
+  22: <unknown>
+  23: <unknown>
+  24: git_midx_writer_dump
+  25: git_filter_source_repo
+  26: git_midx_writer_dump
+  27: BaseThreadInitThunk
+  28: RtlUserThreadStart
+  10.768033500s  INFO prepare_target{force=false package_id=five8 v0.2.1 target="five8"}: cargo::core::compiler::fingerprint: fingerprint error for five8 v0.2.1/Check { test: false }/TargetInner { ..: lib_target("five8", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\five8-0.2.1\\src\\lib.rs", Edition2021) }
+  10.768129300s  INFO prepare_target{force=false package_id=five8 v0.2.1 target="five8"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\five8-c693f84dc86b3522\lib-five8`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_path
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: git_filter_source_repo
+  21: <unknown>
+  22: <unknown>
+  23: git_midx_writer_dump
+  24: git_filter_source_repo
+  25: git_midx_writer_dump
+  26: BaseThreadInitThunk
+  27: RtlUserThreadStart
+  10.786243400s  INFO prepare_target{force=false package_id=five8_core v0.1.2 target="five8_core"}: cargo::core::compiler::fingerprint: fingerprint error for five8_core v0.1.2/Check { test: false }/TargetInner { ..: lib_target("five8_core", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\five8_core-0.1.2\\src\\lib.rs", Edition2021) }
+  10.786331100s  INFO prepare_target{force=false package_id=five8_core v0.1.2 target="five8_core"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\five8_core-9498d624ba45d79b\lib-five8_core`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_path
+  16: git_filter_source_path
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: git_filter_source_repo
+  21: git_filter_source_repo
+  22: <unknown>
+  23: <unknown>
+  24: git_midx_writer_dump
+  25: git_filter_source_repo
+  26: git_midx_writer_dump
+  27: BaseThreadInitThunk
+  28: RtlUserThreadStart
+  10.804396200s  INFO prepare_target{force=false package_id=five8_const v0.1.4 target="five8_const"}: cargo::core::compiler::fingerprint: fingerprint error for five8_const v0.1.4/Check { test: false }/TargetInner { ..: lib_target("five8_const", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\five8_const-0.1.4\\src\\lib.rs", Edition2021) }
+  10.804483100s  INFO prepare_target{force=false package_id=five8_const v0.1.4 target="five8_const"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\five8_const-8c0ac1bdf98c57f6\lib-five8_const`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_path
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: git_filter_source_repo
+  21: <unknown>
+  22: <unknown>
+  23: git_midx_writer_dump
+  24: git_filter_source_repo
+  25: git_midx_writer_dump
+  26: BaseThreadInitThunk
+  27: RtlUserThreadStart
+  10.823631100s  INFO prepare_target{force=false package_id=solana-atomic-u64 v2.2.1 target="solana_atomic_u64"}: cargo::core::compiler::fingerprint: fingerprint error for solana-atomic-u64 v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_atomic_u64", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-atomic-u64-2.2.1\\src\\lib.rs", Edition2021) }
+  10.823712300s  INFO prepare_target{force=false package_id=solana-atomic-u64 v2.2.1 target="solana_atomic_u64"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\solana-atomic-u64-29b8c052c57dbfd3\lib-solana_atomic_u64`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_path
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: git_filter_source_repo
+  21: <unknown>
+  22: <unknown>
+  23: git_midx_writer_dump
+  24: git_filter_source_repo
+  25: git_midx_writer_dump
+  26: BaseThreadInitThunk
+  27: RtlUserThreadStart
+  10.841763100s  INFO prepare_target{force=false package_id=solana-sanitize v2.2.1 target="solana_sanitize"}: cargo::core::compiler::fingerprint: fingerprint error for solana-sanitize v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_sanitize", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-sanitize-2.2.1\\src\\lib.rs", Edition2021) }
+  10.841851800s  INFO prepare_target{force=false package_id=solana-sanitize v2.2.1 target="solana_sanitize"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\solana-sanitize-e1a0aeacd5c38bfa\lib-solana_sanitize`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_path
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: git_filter_source_repo
+  21: <unknown>
+  22: <unknown>
+  23: git_midx_writer_dump
+  24: git_filter_source_repo
+  25: git_midx_writer_dump
+  26: BaseThreadInitThunk
+  27: RtlUserThreadStart
+  10.860989800s  INFO prepare_target{force=false package_id=solana-sha256-hasher v2.3.0 target="solana_sha256_hasher"}: cargo::core::compiler::fingerprint: fingerprint error for solana-sha256-hasher v2.3.0/Check { test: false }/TargetInner { ..: lib_target("solana_sha256_hasher", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-sha256-hasher-2.3.0\\src\\lib.rs", Edition2021) }
+  10.861082700s  INFO prepare_target{force=false package_id=solana-sha256-hasher v2.3.0 target="solana_sha256_hasher"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\solana-sha256-hasher-4a5cce20cfc576b6\lib-solana_sha256_hasher`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_path
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: git_filter_source_repo
+  21: <unknown>
+  22: <unknown>
+  23: git_midx_writer_dump
+  24: git_filter_source_repo
+  25: git_midx_writer_dump
+  26: BaseThreadInitThunk
+  27: RtlUserThreadStart
+  10.879712800s  INFO prepare_target{force=false package_id=sha2 v0.10.9 target="sha2"}: cargo::core::compiler::fingerprint: fingerprint error for sha2 v0.10.9/Check { test: false }/TargetInner { ..: lib_target("sha2", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\sha2-0.10.9\\src\\lib.rs", Edition2018) }
+  10.879797000s  INFO prepare_target{force=false package_id=sha2 v0.10.9 target="sha2"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\sha2-592915d57285a595\lib-sha2`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_path
+  16: git_filter_source_path
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: git_filter_source_repo
+  21: git_filter_source_repo
+  22: <unknown>
+  23: <unknown>
+  24: git_midx_writer_dump
+  25: git_filter_source_repo
+  26: git_midx_writer_dump
+  27: BaseThreadInitThunk
+  28: RtlUserThreadStart
+  10.897954400s  INFO prepare_target{force=false package_id=solana-hash v2.3.0 target="solana_hash"}: cargo::core::compiler::fingerprint: fingerprint error for solana-hash v2.3.0/Check { test: false }/TargetInner { ..: lib_target("solana_hash", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-hash-2.3.0\\src\\lib.rs", Edition2021) }
+  10.898046000s  INFO prepare_target{force=false package_id=solana-hash v2.3.0 target="solana_hash"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\solana-hash-6b88a935eb787510\lib-solana_hash`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_path
+  16: git_filter_source_path
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: git_filter_source_repo
+  21: git_filter_source_repo
+  22: <unknown>
+  23: <unknown>
+  24: git_midx_writer_dump
+  25: git_filter_source_repo
+  26: git_midx_writer_dump
+  27: BaseThreadInitThunk
+  28: RtlUserThreadStart
+  10.916317800s  INFO prepare_target{force=false package_id=solana-msg v2.2.1 target="solana_msg"}: cargo::core::compiler::fingerprint: fingerprint error for solana-msg v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_msg", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-msg-2.2.1\\src\\lib.rs", Edition2021) }
+  10.916400400s  INFO prepare_target{force=false package_id=solana-msg v2.2.1 target="solana_msg"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\solana-msg-ac09659645d75868\lib-solana_msg`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+  10.934962800s  INFO prepare_target{force=false package_id=solana-program-memory v2.3.1 target="solana_program_memory"}: cargo::core::compiler::fingerprint: fingerprint error for solana-program-memory v2.3.1/Check { test: false }/TargetInner { ..: lib_target("solana_program_memory", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-program-memory-2.3.1\\src\\lib.rs", Edition2021) }
+  10.935126500s  INFO prepare_target{force=false package_id=solana-program-memory v2.3.1 target="solana_program_memory"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\solana-program-memory-92fd3d3ccc3513dc\lib-solana_program_memory`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+  10.954996000s  INFO prepare_target{force=false package_id=solana-address-lookup-table-interface v2.2.2 target="solana_address_lookup_table_interface"}: cargo::core::compiler::fingerprint: fingerprint error for solana-address-lookup-table-interface v2.2.2/Check { test: false }/TargetInner { ..: lib_target("solana_address_lookup_table_interface", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-address-lookup-table-interface-2.2.2\\src\\lib.rs", Edition2021) }
+  10.955087400s  INFO prepare_target{force=false package_id=solana-address-lookup-table-interface v2.2.2 target="solana_address_lookup_table_interface"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\solana-address-lookup-table-interface-2ec4376c3f5e8bdf\lib-solana_address_lookup_table_interface`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+  10.974343400s  INFO prepare_target{force=false package_id=solana-clock v2.2.2 target="solana_clock"}: cargo::core::compiler::fingerprint: fingerprint error for solana-clock v2.2.2/Check { test: false }/TargetInner { ..: lib_target("solana_clock", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-clock-2.2.2\\src\\lib.rs", Edition2021) }
+  10.974551900s  INFO prepare_target{force=false package_id=solana-clock v2.2.2 target="solana_clock"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\solana-clock-7c6b616e882601ee\lib-solana_clock`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+  10.993310400s  INFO prepare_target{force=false package_id=solana-sdk-ids v2.2.1 target="solana_sdk_ids"}: cargo::core::compiler::fingerprint: fingerprint error for solana-sdk-ids v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_sdk_ids", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-sdk-ids-2.2.1\\src\\lib.rs", Edition2021) }
+  10.993462700s  INFO prepare_target{force=false package_id=solana-sdk-ids v2.2.1 target="solana_sdk_ids"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\solana-sdk-ids-feb286684c1a34a5\lib-solana_sdk_ids`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+  11.031104500s  INFO prepare_target{force=false package_id=solana-sysvar-id v2.2.1 target="solana_sysvar_id"}: cargo::core::compiler::fingerprint: fingerprint error for solana-sysvar-id v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_sysvar_id", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-sysvar-id-2.2.1\\src\\lib.rs", Edition2021) }
+  11.031189700s  INFO prepare_target{force=false package_id=solana-sysvar-id v2.2.1 target="solana_sysvar_id"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\solana-sysvar-id-ff757b0a97fce004\lib-solana_sysvar_id`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+  11.051349500s  INFO prepare_target{force=false package_id=solana-slot-hashes v2.2.1 target="solana_slot_hashes"}: cargo::core::compiler::fingerprint: fingerprint error for solana-slot-hashes v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_slot_hashes", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-slot-hashes-2.2.1\\src\\lib.rs", Edition2021) }
+  11.051437800s  INFO prepare_target{force=false package_id=solana-slot-hashes v2.2.1 target="solana_slot_hashes"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\solana-slot-hashes-f475eefa3d730477\lib-solana_slot_hashes`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+  11.073271100s  INFO prepare_target{force=false package_id=solana-big-mod-exp v2.2.1 target="solana_big_mod_exp"}: cargo::core::compiler::fingerprint: fingerprint error for solana-big-mod-exp v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_big_mod_exp", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-big-mod-exp-2.2.1\\src\\lib.rs", Edition2021) }
+  11.073354300s  INFO prepare_target{force=false package_id=solana-big-mod-exp v2.2.1 target="solana_big_mod_exp"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\solana-big-mod-exp-12fcbfc2a6c8a9f2\lib-solana_big_mod_exp`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+  11.093054800s  INFO prepare_target{force=false package_id=solana-bincode v2.2.1 target="solana_bincode"}: cargo::core::compiler::fingerprint: fingerprint error for solana-bincode v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_bincode", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-bincode-2.2.1\\src\\lib.rs", Edition2021) }
+  11.093183500s  INFO prepare_target{force=false package_id=solana-bincode v2.2.1 target="solana_bincode"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\solana-bincode-94f9afa9479a2e24\lib-solana_bincode`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+  11.110791300s  INFO prepare_target{force=false package_id=solana-blake3-hasher v2.2.1 target="solana_blake3_hasher"}: cargo::core::compiler::fingerprint: fingerprint error for solana-blake3-hasher v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_blake3_hasher", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-blake3-hasher-2.2.1\\src\\lib.rs", Edition2021) }
+  11.110878500s  INFO prepare_target{force=false package_id=solana-blake3-hasher v2.2.1 target="solana_blake3_hasher"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\solana-blake3-hasher-12ec5556fd6544b6\lib-solana_blake3_hasher`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+  11.126459300s  INFO prepare_target{force=false package_id=solana-borsh v2.2.1 target="solana_borsh"}: cargo::core::compiler::fingerprint: fingerprint error for solana-borsh v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_borsh", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-borsh-2.2.1\\src\\lib.rs", Edition2021) }
+  11.126544800s  INFO prepare_target{force=false package_id=solana-borsh v2.2.1 target="solana_borsh"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\solana-borsh-faaab715bd404a75\lib-solana_borsh`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+  11.143750300s  INFO prepare_target{force=false package_id=solana-cpi v2.2.1 target="solana_cpi"}: cargo::core::compiler::fingerprint: fingerprint error for solana-cpi v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_cpi", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-cpi-2.2.1\\src\\lib.rs", Edition2021) }
+  11.144077200s  INFO prepare_target{force=false package_id=solana-cpi v2.2.1 target="solana_cpi"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\solana-cpi-cb39c0dc08773def\lib-solana_cpi`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+  11.200623200s  INFO prepare_target{force=false package_id=solana-epoch-rewards v2.2.1 target="solana_epoch_rewards"}: cargo::core::compiler::fingerprint: fingerprint error for solana-epoch-rewards v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_epoch_rewards", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-epoch-rewards-2.2.1\\src\\lib.rs", Edition2021) }
+  11.200819500s  INFO prepare_target{force=false package_id=solana-epoch-rewards v2.2.1 target="solana_epoch_rewards"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\solana-epoch-rewards-931b0d814c996042\lib-solana_epoch_rewards`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+  11.219602200s  INFO prepare_target{force=false package_id=solana-epoch-schedule v2.2.1 target="solana_epoch_schedule"}: cargo::core::compiler::fingerprint: fingerprint error for solana-epoch-schedule v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_epoch_schedule", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-epoch-schedule-2.2.1\\src\\lib.rs", Edition2021) }
+  11.219685000s  INFO prepare_target{force=false package_id=solana-epoch-schedule v2.2.1 target="solana_epoch_schedule"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\solana-epoch-schedule-ae17c5f14720f53f\lib-solana_epoch_schedule`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+  11.237049700s  INFO prepare_target{force=false package_id=solana-example-mocks v2.2.1 target="solana_example_mocks"}: cargo::core::compiler::fingerprint: fingerprint error for solana-example-mocks v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_example_mocks", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-example-mocks-2.2.1\\src\\lib.rs", Edition2021) }
+  11.237131000s  INFO prepare_target{force=false package_id=solana-example-mocks v2.2.1 target="solana_example_mocks"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\solana-example-mocks-6581d4e89a59de21\lib-solana_example_mocks`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+  11.253787500s  INFO prepare_target{force=false package_id=solana-keccak-hasher v2.2.1 target="solana_keccak_hasher"}: cargo::core::compiler::fingerprint: fingerprint error for solana-keccak-hasher v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_keccak_hasher", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-keccak-hasher-2.2.1\\src\\lib.rs", Edition2021) }
+  11.253864600s  INFO prepare_target{force=false package_id=solana-keccak-hasher v2.2.1 target="solana_keccak_hasher"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\solana-keccak-hasher-0285b749721b5da1\lib-solana_keccak_hasher`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+  11.272284400s  INFO prepare_target{force=false package_id=sha3 v0.10.8 target="sha3"}: cargo::core::compiler::fingerprint: fingerprint error for sha3 v0.10.8/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("sha3", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\sha3-0.10.8\\src\\lib.rs", Edition2018) }
+  11.272367800s  INFO prepare_target{force=false package_id=sha3 v0.10.8 target="sha3"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\sha3-114f0e2339aee8b2\lib-sha3`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+  11.289684800s  INFO prepare_target{force=false package_id=keccak v0.1.5 target="keccak"}: cargo::core::compiler::fingerprint: fingerprint error for keccak v0.1.5/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("keccak", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\keccak-0.1.5\\src\\lib.rs", Edition2018) }
+  11.289767700s  INFO prepare_target{force=false package_id=keccak v0.1.5 target="keccak"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\keccak-d8eb5788ca4065e6\lib-keccak`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+  11.307435400s  INFO prepare_target{force=false package_id=solana-message v2.4.0 target="solana_message"}: cargo::core::compiler::fingerprint: fingerprint error for solana-message v2.4.0/Check { test: false }/TargetInner { ..: lib_target("solana_message", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-message-2.4.0\\src\\lib.rs", Edition2021) }
+  11.307758000s  INFO prepare_target{force=false package_id=solana-message v2.4.0 target="solana_message"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\solana-message-9e9793a00ca4a2e5\lib-solana_message`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+  11.326840100s  INFO prepare_target{force=false package_id=solana-short-vec v2.2.1 target="solana_short_vec"}: cargo::core::compiler::fingerprint: fingerprint error for solana-short-vec v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_short_vec", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-short-vec-2.2.1\\src\\lib.rs", Edition2021) }
+  11.326928700s  INFO prepare_target{force=false package_id=solana-short-vec v2.2.1 target="solana_short_vec"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\solana-short-vec-c26129022fbe34e0\lib-solana_short_vec`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+  11.344844700s  INFO prepare_target{force=false package_id=solana-system-interface v1.0.0 target="solana_system_interface"}: cargo::core::compiler::fingerprint: fingerprint error for solana-system-interface v1.0.0/Check { test: false }/TargetInner { ..: lib_target("solana_system_interface", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-system-interface-1.0.0\\src\\lib.rs", Edition2021) }
+  11.344933100s  INFO prepare_target{force=false package_id=solana-system-interface v1.0.0 target="solana_system_interface"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\solana-system-interface-65f24721f304dcbb\lib-solana_system_interface`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+  11.364252400s  INFO prepare_target{force=false package_id=solana-transaction-error v2.2.1 target="solana_transaction_error"}: cargo::core::compiler::fingerprint: fingerprint error for solana-transaction-error v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_transaction_error", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-transaction-error-2.2.1\\src\\lib.rs", Edition2021) }
+  11.364339500s  INFO prepare_target{force=false package_id=solana-transaction-error v2.2.1 target="solana_transaction_error"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\solana-transaction-error-691a639f0e6138a6\lib-solana_transaction_error`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+  11.382985100s  INFO prepare_target{force=false package_id=solana-nonce v2.2.1 target="solana_nonce"}: cargo::core::compiler::fingerprint: fingerprint error for solana-nonce v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_nonce", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-nonce-2.2.1\\src\\lib.rs", Edition2021) }
+  11.383067300s  INFO prepare_target{force=false package_id=solana-nonce v2.2.1 target="solana_nonce"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\solana-nonce-dfc3412262ea4e70\lib-solana_nonce`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+  11.403701400s  INFO prepare_target{force=false package_id=solana-fee-calculator v2.2.1 target="solana_fee_calculator"}: cargo::core::compiler::fingerprint: fingerprint error for solana-fee-calculator v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_fee_calculator", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-fee-calculator-2.2.1\\src\\lib.rs", Edition2021) }
+  11.403786300s  INFO prepare_target{force=false package_id=solana-fee-calculator v2.2.1 target="solana_fee_calculator"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\solana-fee-calculator-4ece34a72b4f9356\lib-solana_fee_calculator`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+  11.425088000s  INFO prepare_target{force=false package_id=thiserror v2.0.12 target="thiserror"}: cargo::core::compiler::fingerprint: fingerprint error for thiserror v2.0.12/Check { test: false }/TargetInner { ..: lib_target("thiserror", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\thiserror-2.0.12\\src\\lib.rs", Edition2021) }
+  11.425585300s  INFO prepare_target{force=false package_id=thiserror v2.0.12 target="thiserror"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\thiserror-af1d22b68f68e78e\lib-thiserror`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+  11.570211000s  INFO prepare_target{force=false package_id=solana-feature-gate-interface v2.2.2 target="solana_feature_gate_interface"}: cargo::core::compiler::fingerprint: fingerprint error for solana-feature-gate-interface v2.2.2/Check { test: false }/TargetInner { ..: lib_target("solana_feature_gate_interface", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-feature-gate-interface-2.2.2\\src\\lib.rs", Edition2021) }
+  11.570296400s  INFO prepare_target{force=false package_id=solana-feature-gate-interface v2.2.2 target="solana_feature_gate_interface"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\solana-feature-gate-interface-2cddc9c224ab72ea\lib-solana_feature_gate_interface`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+  11.588750800s  INFO prepare_target{force=false package_id=solana-account v2.2.1 target="solana_account"}: cargo::core::compiler::fingerprint: fingerprint error for solana-account v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_account", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-account-2.2.1\\src\\lib.rs", Edition2021) }
+  11.588832200s  INFO prepare_target{force=false package_id=solana-account v2.2.1 target="solana_account"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\solana-account-85175d93990a58b0\lib-solana_account`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+  11.605947000s  INFO prepare_target{force=false package_id=solana-rent v2.2.1 target="solana_rent"}: cargo::core::compiler::fingerprint: fingerprint error for solana-rent v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_rent", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-rent-2.2.1\\src\\lib.rs", Edition2021) }
+  11.606029000s  INFO prepare_target{force=false package_id=solana-rent v2.2.1 target="solana_rent"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\solana-rent-cd85e17089dc5be2\lib-solana_rent`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+  11.623497700s  INFO prepare_target{force=false package_id=solana-instructions-sysvar v2.2.2 target="solana_instructions_sysvar"}: cargo::core::compiler::fingerprint: fingerprint error for solana-instructions-sysvar v2.2.2/Check { test: false }/TargetInner { ..: lib_target("solana_instructions_sysvar", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-instructions-sysvar-2.2.2\\src\\lib.rs", Edition2021) }
+  11.623585200s  INFO prepare_target{force=false package_id=solana-instructions-sysvar v2.2.2 target="solana_instructions_sysvar"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\solana-instructions-sysvar-decc2ee3fcb387c5\lib-solana_instructions_sysvar`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+  11.642193400s  INFO prepare_target{force=false package_id=bitflags v2.9.1 target="bitflags"}: cargo::core::compiler::fingerprint: fingerprint error for bitflags v2.9.1/Check { test: false }/TargetInner { ..: lib_target("bitflags", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\bitflags-2.9.1\\src\\lib.rs", Edition2021) }
+  11.642289600s  INFO prepare_target{force=false package_id=bitflags v2.9.1 target="bitflags"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\bitflags-c04d58647fbba41e\lib-bitflags`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+  11.658917700s  INFO prepare_target{force=false package_id=solana-serialize-utils v2.2.1 target="solana_serialize_utils"}: cargo::core::compiler::fingerprint: fingerprint error for solana-serialize-utils v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_serialize_utils", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-serialize-utils-2.2.1\\src\\lib.rs", Edition2021) }
+  11.659005600s  INFO prepare_target{force=false package_id=solana-serialize-utils v2.2.1 target="solana_serialize_utils"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\solana-serialize-utils-60f7e13fb9bf9024\lib-solana_serialize_utils`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+  11.677753800s  INFO prepare_target{force=false package_id=solana-last-restart-slot v2.2.1 target="solana_last_restart_slot"}: cargo::core::compiler::fingerprint: fingerprint error for solana-last-restart-slot v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_last_restart_slot", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-last-restart-slot-2.2.1\\src\\lib.rs", Edition2021) }
+  11.677839000s  INFO prepare_target{force=false package_id=solana-last-restart-slot v2.2.1 target="solana_last_restart_slot"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\solana-last-restart-slot-130b7ecabb10a466\lib-solana_last_restart_slot`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+  11.694696900s  INFO prepare_target{force=false package_id=solana-loader-v2-interface v2.2.1 target="solana_loader_v2_interface"}: cargo::core::compiler::fingerprint: fingerprint error for solana-loader-v2-interface v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_loader_v2_interface", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-loader-v2-interface-2.2.1\\src\\lib.rs", Edition2021) }
+  11.694778700s  INFO prepare_target{force=false package_id=solana-loader-v2-interface v2.2.1 target="solana_loader_v2_interface"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\solana-loader-v2-interface-b50cd9cb13069077\lib-solana_loader_v2_interface`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+  11.712667700s  INFO prepare_target{force=false package_id=solana-loader-v3-interface v5.0.0 target="solana_loader_v3_interface"}: cargo::core::compiler::fingerprint: fingerprint error for solana-loader-v3-interface v5.0.0/Check { test: false }/TargetInner { ..: lib_target("solana_loader_v3_interface", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-loader-v3-interface-5.0.0\\src\\lib.rs", Edition2021) }
+  11.712754000s  INFO prepare_target{force=false package_id=solana-loader-v3-interface v5.0.0 target="solana_loader_v3_interface"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\solana-loader-v3-interface-f38639ef5af1734c\lib-solana_loader_v3_interface`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+  11.730668300s  INFO prepare_target{force=false package_id=solana-loader-v4-interface v2.2.1 target="solana_loader_v4_interface"}: cargo::core::compiler::fingerprint: fingerprint error for solana-loader-v4-interface v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_loader_v4_interface", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-loader-v4-interface-2.2.1\\src\\lib.rs", Edition2021) }
+  11.730753300s  INFO prepare_target{force=false package_id=solana-loader-v4-interface v2.2.1 target="solana_loader_v4_interface"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\solana-loader-v4-interface-b6975efe944d0be5\lib-solana_loader_v4_interface`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+  11.748669200s  INFO prepare_target{force=false package_id=solana-native-token v2.3.0 target="solana_native_token"}: cargo::core::compiler::fingerprint: fingerprint error for solana-native-token v2.3.0/Check { test: false }/TargetInner { ..: lib_target("solana_native_token", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-native-token-2.3.0\\src\\lib.rs", Edition2021) }
+  11.748750400s  INFO prepare_target{force=false package_id=solana-native-token v2.3.0 target="solana_native_token"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\solana-native-token-82836577805dff80\lib-solana_native_token`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+  11.766003900s  INFO prepare_target{force=false package_id=solana-program-entrypoint v2.3.0 target="solana_program_entrypoint"}: cargo::core::compiler::fingerprint: fingerprint error for solana-program-entrypoint v2.3.0/Check { test: false }/TargetInner { ..: lib_target("solana_program_entrypoint", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-program-entrypoint-2.3.0\\src\\lib.rs", Edition2021) }
+  11.766088600s  INFO prepare_target{force=false package_id=solana-program-entrypoint v2.3.0 target="solana_program_entrypoint"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\solana-program-entrypoint-c453ec98120db138\lib-solana_program_entrypoint`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+  11.783161900s  INFO prepare_target{force=false package_id=solana-program-option v2.2.1 target="solana_program_option"}: cargo::core::compiler::fingerprint: fingerprint error for solana-program-option v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_program_option", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-program-option-2.2.1\\src\\lib.rs", Edition2021) }
+  11.783238900s  INFO prepare_target{force=false package_id=solana-program-option v2.2.1 target="solana_program_option"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\solana-program-option-f8f7d3289691af8f\lib-solana_program_option`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+  11.800260600s  INFO prepare_target{force=false package_id=solana-program-pack v2.2.1 target="solana_program_pack"}: cargo::core::compiler::fingerprint: fingerprint error for solana-program-pack v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_program_pack", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-program-pack-2.2.1\\src\\lib.rs", Edition2021) }
+  11.800340400s  INFO prepare_target{force=false package_id=solana-program-pack v2.2.1 target="solana_program_pack"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\solana-program-pack-36a9ff72f321b34a\lib-solana_program_pack`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+  11.817732400s  INFO prepare_target{force=false package_id=solana-secp256k1-recover v2.2.1 target="solana_secp256k1_recover"}: cargo::core::compiler::fingerprint: fingerprint error for solana-secp256k1-recover v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_secp256k1_recover", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-secp256k1-recover-2.2.1\\src\\lib.rs", Edition2021) }
+  11.817817200s  INFO prepare_target{force=false package_id=solana-secp256k1-recover v2.2.1 target="solana_secp256k1_recover"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\solana-secp256k1-recover-7b6f5d4dfa6b9a26\lib-solana_secp256k1_recover`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+  11.835543400s  INFO prepare_target{force=false package_id=libsecp256k1 v0.6.0 target="libsecp256k1"}: cargo::core::compiler::fingerprint: fingerprint error for libsecp256k1 v0.6.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("libsecp256k1", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\libsecp256k1-0.6.0\\src\\lib.rs", Edition2018) }
+  11.835625700s  INFO prepare_target{force=false package_id=libsecp256k1 v0.6.0 target="libsecp256k1"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\libsecp256k1-1c4ee0c42793ee22\lib-libsecp256k1`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+  11.854525100s  INFO prepare_target{force=false package_id=base64 v0.12.3 target="base64"}: cargo::core::compiler::fingerprint: fingerprint error for base64 v0.12.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("base64", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\base64-0.12.3\\src\\lib.rs", Edition2018) }
+  11.854607400s  INFO prepare_target{force=false package_id=base64 v0.12.3 target="base64"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\base64-0a209467ebc54b52\lib-base64`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+  11.873794800s  INFO prepare_target{force=false package_id=digest v0.9.0 target="digest"}: cargo::core::compiler::fingerprint: fingerprint error for digest v0.9.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("digest", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\digest-0.9.0\\src\\lib.rs", Edition2018) }
+  11.874234200s  INFO prepare_target{force=false package_id=digest v0.9.0 target="digest"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\digest-0761dfdc77006834\lib-digest`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+  12.320275900s  INFO prepare_target{force=false package_id=libsecp256k1-core v0.2.2 target="libsecp256k1_core"}: cargo::core::compiler::fingerprint: fingerprint error for libsecp256k1-core v0.2.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("libsecp256k1_core", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\libsecp256k1-core-0.2.2\\src\\lib.rs", Edition2018) }
+  12.320366600s  INFO prepare_target{force=false package_id=libsecp256k1-core v0.2.2 target="libsecp256k1_core"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\libsecp256k1-core-24b5f4b12980a7b8\lib-libsecp256k1_core`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+  12.337388000s  INFO prepare_target{force=false package_id=crunchy v0.2.4 target="crunchy"}: cargo::core::compiler::fingerprint: fingerprint error for crunchy v0.2.4/Check { test: false }/TargetInner { ..: lib_target("crunchy", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\crunchy-0.2.4\\src\\lib.rs", Edition2021) }
+  12.337470600s  INFO prepare_target{force=false package_id=crunchy v0.2.4 target="crunchy"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\crunchy-f5d040f01cbc6a8f\lib-crunchy`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+  12.356792000s  INFO prepare_target{force=false package_id=rand v0.7.3 target="rand"}: cargo::core::compiler::fingerprint: fingerprint error for rand v0.7.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("rand", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rand-0.7.3\\src\\lib.rs", Edition2018) }
+  12.356875200s  INFO prepare_target{force=false package_id=rand v0.7.3 target="rand"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\rand-41d78ce0ddfc1561\lib-rand`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+  12.376405500s  INFO prepare_target{force=false package_id=getrandom v0.1.16 target="getrandom"}: cargo::core::compiler::fingerprint: fingerprint error for getrandom v0.1.16/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("getrandom", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\getrandom-0.1.16\\src\\lib.rs", Edition2018) }
+  12.376504300s  INFO prepare_target{force=false package_id=getrandom v0.1.16 target="getrandom"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\getrandom-cb4e0eb7ac99e2c9\lib-getrandom`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+  12.480701200s  INFO prepare_target{force=false package_id=rand_chacha v0.2.2 target="rand_chacha"}: cargo::core::compiler::fingerprint: fingerprint error for rand_chacha v0.2.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("rand_chacha", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rand_chacha-0.2.2\\src\\lib.rs", Edition2018) }
+  12.480783300s  INFO prepare_target{force=false package_id=rand_chacha v0.2.2 target="rand_chacha"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\rand_chacha-cbe82ba6c8a46ef4\lib-rand_chacha`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+  12.497889800s  INFO prepare_target{force=false package_id=rand_core v0.5.1 target="rand_core"}: cargo::core::compiler::fingerprint: fingerprint error for rand_core v0.5.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("rand_core", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rand_core-0.5.1\\src\\lib.rs", Edition2018) }
+  12.497977900s  INFO prepare_target{force=false package_id=rand_core v0.5.1 target="rand_core"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\rand_core-04bea1b161412250\lib-rand_core`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_path
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: git_filter_source_repo
+  21: <unknown>
+  22: <unknown>
+  23: git_midx_writer_dump
+  24: git_filter_source_repo
+  25: git_midx_writer_dump
+  26: BaseThreadInitThunk
+  27: RtlUserThreadStart
+  12.515093000s  INFO prepare_target{force=false package_id=sha2 v0.9.9 target="sha2"}: cargo::core::compiler::fingerprint: fingerprint error for sha2 v0.9.9/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("sha2", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\sha2-0.9.9\\src\\lib.rs", Edition2018) }
+  12.515188600s  INFO prepare_target{force=false package_id=sha2 v0.9.9 target="sha2"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\sha2-9ef9cc3e532de610\lib-sha2`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+  12.532680300s  INFO prepare_target{force=false package_id=block-buffer v0.9.0 target="block_buffer"}: cargo::core::compiler::fingerprint: fingerprint error for block-buffer v0.9.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("block_buffer", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\block-buffer-0.9.0\\src\\lib.rs", Edition2018) }
+  12.532764000s  INFO prepare_target{force=false package_id=block-buffer v0.9.0 target="block_buffer"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\block-buffer-2b1e290606ade0ca\lib-block_buffer`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+  12.549501400s  INFO prepare_target{force=false package_id=opaque-debug v0.3.1 target="opaque_debug"}: cargo::core::compiler::fingerprint: fingerprint error for opaque-debug v0.3.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("opaque_debug", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\opaque-debug-0.3.1\\src\\lib.rs", Edition2018) }
+  12.549582500s  INFO prepare_target{force=false package_id=opaque-debug v0.3.1 target="opaque_debug"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\opaque-debug-1af31db5269423cd\lib-opaque_debug`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+  12.567405600s  INFO prepare_target{force=false package_id=solana-serde-varint v2.2.2 target="solana_serde_varint"}: cargo::core::compiler::fingerprint: fingerprint error for solana-serde-varint v2.2.2/Check { test: false }/TargetInner { ..: lib_target("solana_serde_varint", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-serde-varint-2.2.2\\src\\lib.rs", Edition2021) }
+  12.567491500s  INFO prepare_target{force=false package_id=solana-serde-varint v2.2.2 target="solana_serde_varint"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\solana-serde-varint-d2b0fa434fea96c7\lib-solana_serde_varint`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+  12.586841900s  INFO prepare_target{force=false package_id=solana-slot-history v2.2.1 target="solana_slot_history"}: cargo::core::compiler::fingerprint: fingerprint error for solana-slot-history v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_slot_history", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-slot-history-2.2.1\\src\\lib.rs", Edition2021) }
+  12.586980700s  INFO prepare_target{force=false package_id=solana-slot-history v2.2.1 target="solana_slot_history"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\solana-slot-history-77c6b28f08e23d14\lib-solana_slot_history`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+  12.613465700s  INFO prepare_target{force=false package_id=bv v0.11.1 target="bv"}: cargo::core::compiler::fingerprint: fingerprint error for bv v0.11.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("bv", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\bv-0.11.1\\src\\lib.rs", Edition2015) }
+  12.613553800s  INFO prepare_target{force=false package_id=bv v0.11.1 target="bv"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\bv-51ebfb03696f6318\lib-bv`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+  12.802950600s  INFO prepare_target{force=false package_id=solana-stable-layout v2.2.1 target="solana_stable_layout"}: cargo::core::compiler::fingerprint: fingerprint error for solana-stable-layout v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_stable_layout", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-stable-layout-2.2.1\\src\\lib.rs", Edition2021) }
+  12.803101800s  INFO prepare_target{force=false package_id=solana-stable-layout v2.2.1 target="solana_stable_layout"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\solana-stable-layout-b53775ceb2e3cd4a\lib-solana_stable_layout`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+  12.823347600s  INFO prepare_target{force=false package_id=solana-stake-interface v1.2.1 target="solana_stake_interface"}: cargo::core::compiler::fingerprint: fingerprint error for solana-stake-interface v1.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_stake_interface", ["rlib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-stake-interface-1.2.1\\src\\lib.rs", Edition2021) }
+  12.823439700s  INFO prepare_target{force=false package_id=solana-stake-interface v1.2.1 target="solana_stake_interface"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\solana-stake-interface-036ae4b01278c35b\lib-solana_stake_interface`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+  12.847516600s  INFO prepare_target{force=false package_id=solana-sysvar v2.3.0 target="solana_sysvar"}: cargo::core::compiler::fingerprint: fingerprint error for solana-sysvar v2.3.0/Check { test: false }/TargetInner { ..: lib_target("solana_sysvar", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-sysvar-2.3.0\\src\\lib.rs", Edition2021) }
+  12.847594500s  INFO prepare_target{force=false package_id=solana-sysvar v2.3.0 target="solana_sysvar"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\solana-sysvar-9535ba1f99871876\lib-solana_sysvar`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+  12.870820500s  INFO prepare_target{force=false package_id=base64 v0.22.1 target="base64"}: cargo::core::compiler::fingerprint: fingerprint error for base64 v0.22.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("base64", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\base64-0.22.1\\src\\lib.rs", Edition2018) }
+  12.870908700s  INFO prepare_target{force=false package_id=base64 v0.22.1 target="base64"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\base64-46f222bda5579880\lib-base64`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+  12.888161100s  INFO prepare_target{force=false package_id=solana-vote-interface v2.2.6 target="solana_vote_interface"}: cargo::core::compiler::fingerprint: fingerprint error for solana-vote-interface v2.2.6/Check { test: false }/TargetInner { ..: lib_target("solana_vote_interface", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-vote-interface-2.2.6\\src\\lib.rs", Edition2021) }
+  12.888243500s  INFO prepare_target{force=false package_id=solana-vote-interface v2.2.6 target="solana_vote_interface"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\solana-vote-interface-ba65688b6283de32\lib-solana_vote_interface`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+  12.907063600s  INFO prepare_target{force=false package_id=thiserror v1.0.69 target="thiserror"}: cargo::core::compiler::fingerprint: fingerprint error for thiserror v1.0.69/Check { test: false }/TargetInner { ..: lib_target("thiserror", ["lib"], "C:\\Users\\lenovo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\thiserror-1.0.69\\src\\lib.rs", Edition2021) }
+  12.907225700s  INFO prepare_target{force=false package_id=thiserror v1.0.69 target="thiserror"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\thiserror-eec34e2b00c6cd83\lib-thiserror`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+  12.928950600s  INFO prepare_target{force=false package_id=allgame v0.1.0 (\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\programs\allgame) target="allgame"}: cargo::core::compiler::fingerprint: fingerprint error for allgame v0.1.0 (\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\programs\allgame)/Check { test: true }/TargetInner { ..: lib_target("allgame", ["cdylib", "lib"], "\\\\wsl.localhost\\Ubuntu\\home\\lenovo\\projects\\coinflip\\programs\\allgame\\src\\lib.rs", Edition2021) }
+  12.929050800s  INFO prepare_target{force=false package_id=allgame v0.1.0 (\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\programs\allgame) target="allgame"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\allgame-6404667373956002\test-lib-allgame`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+  12.951964700s  INFO prepare_target{force=false package_id=coinflip v0.1.0 (\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\programs\coinflip) target="coinflip"}: cargo::core::compiler::fingerprint: fingerprint error for coinflip v0.1.0 (\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\programs\coinflip)/Check { test: false }/TargetInner { ..: lib_target("coinflip", ["cdylib", "lib"], "\\\\wsl.localhost\\Ubuntu\\home\\lenovo\\projects\\coinflip\\programs\\coinflip\\src\\lib.rs", Edition2021) }
+  12.952066000s  INFO prepare_target{force=false package_id=coinflip v0.1.0 (\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\programs\coinflip) target="coinflip"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\coinflip-e5b7a11b585a4b10\lib-coinflip`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+  12.979187500s  INFO prepare_target{force=false package_id=coinflip v0.1.0 (\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\programs\coinflip) target="coinflip"}: cargo::core::compiler::fingerprint: fingerprint error for coinflip v0.1.0 (\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\programs\coinflip)/Check { test: true }/TargetInner { ..: lib_target("coinflip", ["cdylib", "lib"], "\\\\wsl.localhost\\Ubuntu\\home\\lenovo\\projects\\coinflip\\programs\\coinflip\\src\\lib.rs", Edition2021) }
+  12.979290000s  INFO prepare_target{force=false package_id=coinflip v0.1.0 (\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\programs\coinflip) target="coinflip"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\coinflip-e424093cecae1621\test-lib-coinflip`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+  13.001042000s  INFO prepare_target{force=false package_id=crash_program v0.1.0 (\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\programs\crash_program) target="crash_program"}: cargo::core::compiler::fingerprint: fingerprint error for crash_program v0.1.0 (\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\programs\crash_program)/Check { test: false }/TargetInner { ..: lib_target("crash_program", ["cdylib", "lib"], "\\\\wsl.localhost\\Ubuntu\\home\\lenovo\\projects\\coinflip\\programs\\crash_program\\src\\lib.rs", Edition2021) }
+  13.001142200s  INFO prepare_target{force=false package_id=crash_program v0.1.0 (\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\programs\crash_program) target="crash_program"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\crash_program-54db6ed1279a462b\lib-crash_program`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+  13.024211900s  INFO prepare_target{force=false package_id=crash_program v0.1.0 (\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\programs\crash_program) target="crash_program"}: cargo::core::compiler::fingerprint: fingerprint error for crash_program v0.1.0 (\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\programs\crash_program)/Check { test: true }/TargetInner { ..: lib_target("crash_program", ["cdylib", "lib"], "\\\\wsl.localhost\\Ubuntu\\home\\lenovo\\projects\\coinflip\\programs\\crash_program\\src\\lib.rs", Edition2021) }
+  13.024829400s  INFO prepare_target{force=false package_id=crash_program v0.1.0 (\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\programs\crash_program) target="crash_program"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\crash_program-f50c16d04f5a6213\test-lib-crash_program`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+  13.046656200s  INFO prepare_target{force=false package_id=dice v0.1.0 (\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\programs\dice) target="dice"}: cargo::core::compiler::fingerprint: fingerprint error for dice v0.1.0 (\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\programs\dice)/Check { test: false }/TargetInner { ..: lib_target("dice", ["cdylib", "lib"], "\\\\wsl.localhost\\Ubuntu\\home\\lenovo\\projects\\coinflip\\programs\\dice\\src\\lib.rs", Edition2021) }
+  13.046772600s  INFO prepare_target{force=false package_id=dice v0.1.0 (\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\programs\dice) target="dice"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\dice-c2a70acff6c62e79\lib-dice`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+  13.077904000s  INFO prepare_target{force=false package_id=dice v0.1.0 (\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\programs\dice) target="dice"}: cargo::core::compiler::fingerprint: fingerprint error for dice v0.1.0 (\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\programs\dice)/Check { test: true }/TargetInner { ..: lib_target("dice", ["cdylib", "lib"], "\\\\wsl.localhost\\Ubuntu\\home\\lenovo\\projects\\coinflip\\programs\\dice\\src\\lib.rs", Edition2021) }
+  13.078009800s  INFO prepare_target{force=false package_id=dice v0.1.0 (\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\programs\dice) target="dice"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\dice-8a1548a6ff0dec9f\test-lib-dice`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+  13.104828400s  INFO prepare_target{force=false package_id=dicemines v0.1.0 (\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\programs\dicemines) target="dicemines"}: cargo::core::compiler::fingerprint: fingerprint error for dicemines v0.1.0 (\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\programs\dicemines)/Check { test: false }/TargetInner { ..: lib_target("dicemines", ["cdylib", "lib"], "\\\\wsl.localhost\\Ubuntu\\home\\lenovo\\projects\\coinflip\\programs\\dicemines\\src\\lib.rs", Edition2021) }
+  13.104925500s  INFO prepare_target{force=false package_id=dicemines v0.1.0 (\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\programs\dicemines) target="dicemines"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\dicemines-4930ed6991868b9f\lib-dicemines`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+  13.128869500s  INFO prepare_target{force=false package_id=dicemines v0.1.0 (\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\programs\dicemines) target="dicemines"}: cargo::core::compiler::fingerprint: fingerprint error for dicemines v0.1.0 (\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\programs\dicemines)/Check { test: true }/TargetInner { ..: lib_target("dicemines", ["cdylib", "lib"], "\\\\wsl.localhost\\Ubuntu\\home\\lenovo\\projects\\coinflip\\programs\\dicemines\\src\\lib.rs", Edition2021) }
+  13.128982500s  INFO prepare_target{force=false package_id=dicemines v0.1.0 (\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\programs\dicemines) target="dicemines"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\dicemines-cfc0698b0a85a725\test-lib-dicemines`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+  13.151591400s  INFO prepare_target{force=false package_id=mines v0.1.0 (\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\programs\mines) target="mines"}: cargo::core::compiler::fingerprint: fingerprint error for mines v0.1.0 (\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\programs\mines)/Check { test: false }/TargetInner { ..: lib_target("mines", ["cdylib", "lib"], "\\\\wsl.localhost\\Ubuntu\\home\\lenovo\\projects\\coinflip\\programs\\mines\\src\\lib.rs", Edition2021) }
+  13.151692600s  INFO prepare_target{force=false package_id=mines v0.1.0 (\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\programs\mines) target="mines"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\mines-6f1bb147d6a8d12f\lib-mines`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+  13.174734600s  INFO prepare_target{force=false package_id=mines v0.1.0 (\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\programs\mines) target="mines"}: cargo::core::compiler::fingerprint: fingerprint error for mines v0.1.0 (\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\programs\mines)/Check { test: true }/TargetInner { ..: lib_target("mines", ["cdylib", "lib"], "\\\\wsl.localhost\\Ubuntu\\home\\lenovo\\projects\\coinflip\\programs\\mines\\src\\lib.rs", Edition2021) }
+  13.174842800s  INFO prepare_target{force=false package_id=mines v0.1.0 (\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\programs\mines) target="mines"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\mines-2303a728d196fd05\test-lib-mines`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+  13.198529400s  INFO prepare_target{force=false package_id=plinko v0.1.0 (\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\programs\plinko) target="plinko"}: cargo::core::compiler::fingerprint: fingerprint error for plinko v0.1.0 (\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\programs\plinko)/Check { test: false }/TargetInner { ..: lib_target("plinko", ["cdylib", "lib"], "\\\\wsl.localhost\\Ubuntu\\home\\lenovo\\projects\\coinflip\\programs\\plinko\\src\\lib.rs", Edition2021) }
+  13.198635800s  INFO prepare_target{force=false package_id=plinko v0.1.0 (\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\programs\plinko) target="plinko"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\plinko-d3c6b4fbd91d3d47\lib-plinko`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+  13.221899900s  INFO prepare_target{force=false package_id=plinko v0.1.0 (\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\programs\plinko) target="plinko"}: cargo::core::compiler::fingerprint: fingerprint error for plinko v0.1.0 (\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\programs\plinko)/Check { test: true }/TargetInner { ..: lib_target("plinko", ["cdylib", "lib"], "\\\\wsl.localhost\\Ubuntu\\home\\lenovo\\projects\\coinflip\\programs\\plinko\\src\\lib.rs", Edition2021) }
+  13.221996200s  INFO prepare_target{force=false package_id=plinko v0.1.0 (\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\programs\plinko) target="plinko"}: cargo::core::compiler::fingerprint:     err: failed to read `\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\target\debug\.fingerprint\plinko-960ccba1abf01588\test-lib-plinko`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+    Checking cfg-if v1.0.1
+    Checking subtle v2.6.1
+    Checking typenum v1.18.0
+    Checking zerocopy v0.8.26
+    Checking serde v1.0.219
+    Checking five8_core v0.1.2
+    Checking generic-array v0.14.7
+    Checking cpufeatures v0.2.17
+    Checking borsh v1.5.7
+    Checking five8 v0.2.1
+    Checking num-traits v0.2.19
+    Checking getrandom v0.2.16
+    Checking once_cell v1.21.3
+    Checking bytemuck v1.23.2
+    Checking solana-sanitize v2.2.1
+    Checking solana-atomic-u64 v2.2.1
+    Checking rand_core v0.6.4
+    Checking crypto-common v0.1.6
+    Checking block-buffer v0.10.4
+    Checking ahash v0.8.12
+    Checking zeroize v1.8.1
+    Checking five8_const v0.1.4
+    Checking solana-decode-error v2.3.0
+    Checking digest v0.10.7
+    Checking hashbrown v0.13.2
+    Checking sha2 v0.10.9
+    Checking curve25519-dalek v4.1.3
+    Checking solana-msg v2.2.1
+    Checking solana-program-memory v2.3.1
+    Checking ppv-lite86 v0.2.21
+    Checking arrayref v0.3.9
+    Checking getrandom v0.1.16
+    Checking borsh v0.10.4
+    Checking digest v0.9.0
+    Checking rand_core v0.5.1
+    Checking arrayvec v0.7.6
+    Checking constant_time_eq v0.3.1
+    Checking log v0.4.27
+    Checking solana-hash v2.3.0
+    Checking bincode v1.3.3
+    Checking serde_bytes v0.11.17
+    Checking solana-fee-calculator v2.2.1
+    Checking blake3 v1.8.2
+    Checking rand_chacha v0.2.2
+    Checking solana-short-vec v2.2.1
+    Checking crunchy v0.2.4
+    Checking block-buffer v0.9.0
+    Checking opaque-debug v0.3.1
+    Checking lazy_static v1.5.0
+    Checking keccak v0.1.5
+    Checking libsecp256k1-core v0.2.2
+    Checking thiserror v2.0.12
+    Checking sha2 v0.9.9
+    Checking rand v0.7.3
+    Checking sha3 v0.10.8
+    Checking bv v0.11.1
+    Checking num-integer v0.1.46
+    Checking solana-sha256-hasher v2.3.0
+    Checking base64 v0.12.3
+    Checking bitflags v2.9.1
+    Checking num-bigint v0.4.6
+    Checking solana-keccak-hasher v2.2.1
+    Checking solana-serde-varint v2.2.2
+    Checking rand_chacha v0.3.1
+    Checking base64 v0.22.1
+    Checking memoffset v0.9.1
+    Checking solana-blake3-hasher v2.2.1
+    Checking libsecp256k1 v0.6.0
+    Checking solana-borsh v2.2.1
+    Checking rand v0.8.5
+    Checking bs58 v0.5.1
+    Checking solana-program-option v2.2.1
+    Checking solana-native-token v2.3.0
+    Checking thiserror v1.0.69
+    Checking base64 v0.21.7
+    Checking solana-pubkey v2.4.0
+    Checking solana-big-mod-exp v2.2.1
+    Checking solana-instruction v2.3.0
+    Checking solana-sdk-ids v2.2.1
+    Checking solana-nonce v2.2.1
+    Checking solana-secp256k1-recover v2.2.1
+    Checking solana-sysvar-id v2.2.1
+    Checking solana-program-error v2.2.2
+    Checking solana-system-interface v1.0.0
+    Checking solana-serialize-utils v2.2.1
+    Checking solana-bincode v2.2.1
+    Checking solana-transaction-error v2.2.1
+    Checking solana-loader-v2-interface v2.2.1
+    Checking solana-stable-layout v2.2.1
+    Checking solana-clock v2.2.2
+    Checking solana-rent v2.2.1
+    Checking solana-account-info v2.3.0
+    Checking solana-slot-hashes v2.2.1
+    Checking solana-epoch-schedule v2.2.1
+    Checking solana-slot-history v2.2.1
+    Checking solana-epoch-rewards v2.2.1
+    Checking solana-message v2.4.0
+    Checking solana-cpi v2.2.1
+    Checking solana-account v2.2.1
+    Checking solana-program-entrypoint v2.3.0
+    Checking solana-address-lookup-table-interface v2.2.2
+    Checking solana-instructions-sysvar v2.2.2
+    Checking solana-last-restart-slot v2.2.1
+    Checking solana-vote-interface v2.2.6
+    Checking solana-loader-v3-interface v5.0.0
+    Checking solana-loader-v4-interface v2.2.1
+    Checking solana-stake-interface v1.2.1
+    Checking solana-example-mocks v2.2.1
+    Checking solana-feature-gate-interface v2.2.2
+    Checking solana-program-pack v2.2.1
+    Checking solana-sysvar v2.3.0
+    Checking solana-program v2.3.0
+    Checking anchor-lang v0.31.1
+    Checking crash_program v0.1.0 (\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\programs\crash_program)
+    Checking dice v0.1.0 (\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\programs\dice)
+    Checking coinflip v0.1.0 (\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\programs\coinflip)
+    Checking dicemines v0.1.0 (\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\programs\dicemines)
+    Checking plinko v0.1.0 (\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\programs\plinko)
+    Checking mines v0.1.0 (\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\programs\mines)
+error: could not compile `coinflip` (lib test) due to 1 previous error
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `coinflip` (lib) due to 1 previous error
+error: could not compile `mines` (lib test) due to 1 previous error
+    Checking allgame v0.1.0 (\\wsl.localhost\Ubuntu\home\lenovo\projects\coinflip\programs\allgame)
+error: could not compile `dicemines` (lib) due to 1 previous error
+error: could not compile `crash_program` (lib test) due to 1 previous error
+error: could not compile `dice` (lib) due to 1 previous error
+error: could not compile `plinko` (lib) due to 1 previous error
+error: could not compile `dicemines` (lib test) due to 1 previous error
+error: could not compile `mines` (lib) due to 1 previous error
+error: could not compile `dice` (lib test) due to 1 previous error
+error: could not compile `plinko` (lib test) due to 1 previous error
+error: could not compile `crash_program` (lib) due to 1 previous error
+error: could not compile `allgame` (lib) due to 1 previous error
+error: could not compile `allgame` (lib test) due to 1 previous error

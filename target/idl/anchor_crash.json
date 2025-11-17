@@ -1,0 +1,535 @@
+{
+  "address": "7FydhAeaHUrwkhRkPoSUi4AHedQEGdn5gBwfzHyUBtAj",
+  "metadata": {
+    "name": "anchor_crash",
+    "version": "0.1.0",
+    "spec": "0.1.0",
+    "description": "Created with Anchor"
+  },
+  "instructions": [
+    {
+      "name": "init_admin",
+      "discriminator": [
+        97,
+        65,
+        97,
+        27,
+        200,
+        206,
+        72,
+        219
+      ],
+      "accounts": [
+        {
+          "name": "authority",
+          "writable": true,
+          "signer": true
+        },
+        {
+          "name": "admin_config",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  97,
+                  100,
+                  109,
+                  105,
+                  110
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
+        }
+      ],
+      "args": [
+        {
+          "name": "admin_pubkey",
+          "type": {
+            "array": [
+              "u8",
+              32
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "init_vault",
+      "discriminator": [
+        77,
+        79,
+        85,
+        150,
+        33,
+        217,
+        52,
+        106
+      ],
+      "accounts": [
+        {
+          "name": "payer",
+          "writable": true,
+          "signer": true
+        },
+        {
+          "name": "vault",
+          "docs": [
+            "It will be a System Program-owned account that only holds lamports for payouts.",
+            "We do not deserialize structured data from it, and the seeds constraint enforces PDA derivation."
+          ],
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  118,
+                  97,
+                  117,
+                  108,
+                  116
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
+        }
+      ],
+      "args": []
+    },
+    {
+      "name": "lock",
+      "docs": [
+        "Step 1: Player deposits bet into vault and opens a PendingRound"
+      ],
+      "discriminator": [
+        21,
+        19,
+        208,
+        43,
+        237,
+        62,
+        255,
+        87
+      ],
+      "accounts": [
+        {
+          "name": "player",
+          "writable": true,
+          "signer": true
+        },
+        {
+          "name": "vault",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  118,
+                  97,
+                  117,
+                  108,
+                  116
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "pending_round",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  114,
+                  111,
+                  117,
+                  110,
+                  100
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "player"
+              },
+              {
+                "kind": "arg",
+                "path": "args.nonce"
+              }
+            ]
+          }
+        },
+        {
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
+        }
+      ],
+      "args": [
+        {
+          "name": "args",
+          "type": {
+            "defined": {
+              "name": "LockArgs"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "resolve",
+      "docs": [
+        "Step 2: Backend signs result. Program verifies pre-instruction + rails, then pays if cashed"
+      ],
+      "discriminator": [
+        246,
+        150,
+        236,
+        206,
+        108,
+        63,
+        58,
+        10
+      ],
+      "accounts": [
+        {
+          "name": "player",
+          "writable": true
+        },
+        {
+          "name": "vault",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  118,
+                  97,
+                  117,
+                  108,
+                  116
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "admin_config",
+          "docs": [
+            "Admin config PDA containing backend ed25519 pubkey"
+          ],
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  97,
+                  100,
+                  109,
+                  105,
+                  110
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "pending_round",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  114,
+                  111,
+                  117,
+                  110,
+                  100
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "player"
+              },
+              {
+                "kind": "account",
+                "path": "pending_round.nonce",
+                "account": "PendingRound"
+              }
+            ]
+          }
+        },
+        {
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
+        },
+        {
+          "name": "sysvar_instructions",
+          "docs": [
+            "We constrain the exact address using `address = SYSVAR_INSTRUCTIONS_ID`.",
+            "It is safe to treat as UncheckedAccount because we only use it to load instructions."
+          ],
+          "address": "Sysvar1nstructions1111111111111111111111111"
+        }
+      ],
+      "args": [
+        {
+          "name": "args",
+          "type": {
+            "defined": {
+              "name": "ResolveArgs"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "name": "AdminConfig",
+      "discriminator": [
+        156,
+        10,
+        79,
+        161,
+        71,
+        9,
+        62,
+        77
+      ]
+    },
+    {
+      "name": "PendingRound",
+      "discriminator": [
+        84,
+        181,
+        229,
+        123,
+        141,
+        87,
+        165,
+        218
+      ]
+    }
+  ],
+  "events": [
+    {
+      "name": "RoundLocked",
+      "discriminator": [
+        19,
+        58,
+        91,
+        157,
+        24,
+        76,
+        207,
+        7
+      ]
+    },
+    {
+      "name": "RoundResolved",
+      "discriminator": [
+        204,
+        146,
+        253,
+        187,
+        8,
+        61,
+        75,
+        29
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "code": 6000,
+      "name": "InvalidEd25519",
+      "msg": "Invalid ed25519 pre-instruction"
+    },
+    {
+      "code": 6001,
+      "name": "Expired",
+      "msg": "Expired signature"
+    },
+    {
+      "code": 6002,
+      "name": "BadParams",
+      "msg": "Params invalid"
+    },
+    {
+      "code": 6003,
+      "name": "BadPayout",
+      "msg": "Payout sanity check failed"
+    },
+    {
+      "code": 6004,
+      "name": "VaultMismatch",
+      "msg": "Vault mismatch"
+    },
+    {
+      "code": 6005,
+      "name": "BadRound",
+      "msg": "Round not found or already settled"
+    }
+  ],
+  "types": [
+    {
+      "name": "AdminConfig",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "admin_pubkey",
+            "docs": [
+              "Trusted ed25519 public key (32 bytes) of your backend signer"
+            ],
+            "type": {
+              "array": [
+                "u8",
+                32
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "LockArgs",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "bet_amount",
+            "type": "u64"
+          },
+          {
+            "name": "nonce",
+            "type": "u64"
+          },
+          {
+            "name": "expiry_unix",
+            "type": "i64"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PendingRound",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "player",
+            "type": "pubkey"
+          },
+          {
+            "name": "amount",
+            "type": "u64"
+          },
+          {
+            "name": "nonce",
+            "type": "u64"
+          },
+          {
+            "name": "expiry_unix",
+            "type": "i64"
+          },
+          {
+            "name": "settled",
+            "type": "bool"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ResolveArgs",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "checksum",
+            "type": "u8"
+          },
+          {
+            "name": "multiplier_bps",
+            "type": "u32"
+          },
+          {
+            "name": "payout",
+            "type": "u64"
+          },
+          {
+            "name": "ed25519_instr_index",
+            "type": "u8"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RoundLocked",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "player",
+            "type": "pubkey"
+          },
+          {
+            "name": "amount",
+            "type": "u64"
+          },
+          {
+            "name": "nonce",
+            "type": "u64"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RoundResolved",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "player",
+            "type": "pubkey"
+          },
+          {
+            "name": "cashed",
+            "type": "bool"
+          },
+          {
+            "name": "checksum",
+            "type": "u8"
+          },
+          {
+            "name": "multiplier_bps",
+            "type": "u32"
+          },
+          {
+            "name": "payout",
+            "type": "u64"
+          },
+          {
+            "name": "nonce",
+            "type": "u64"
+          }
+        ]
+      }
+    }
+  ]
+}
