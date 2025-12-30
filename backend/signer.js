@@ -284,10 +284,12 @@ function readKeypairFile(anyPath) {
  * 4) Fallback from ADMIN seed
  */
 async function getServerKeypair() {
-  const envVal =
-    process.env.SOLANA_KEYPAIR ||
-    process.env.ANCHOR_WALLET ||
-    process.env.SERVER_KEYPAIR_PATH;
+ const envVal =
+  process.env.SERVER_KEYPAIR ||
+  process.env.SERVER_KEYPAIR_PATH ||
+  process.env.SOLANA_KEYPAIR ||
+  process.env.ANCHOR_WALLET;
+
 
   if (envVal) {
     try {
@@ -331,4 +333,5 @@ module.exports = {
   signMessageEd25519,     // Ed25519 signer
   getServerKeypair,       // server fee payer
 };
+
 
