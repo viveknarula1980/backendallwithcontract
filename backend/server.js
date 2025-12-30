@@ -100,7 +100,7 @@ function getClientIp(req) {
 // ---------- USDT conversion helpers ----------
 const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL || process.env.SITE_URL || "https://api.zoggy.io";
-const PORT = Number(process.env.PORT || 4000);
+const PORT = Number(process.env.PORT || 3000);
 
 // Build absolute /maintenance URL for redirects
 function buildMaintenanceUrl(redirectUrl) {
@@ -118,8 +118,8 @@ async function getSolUsd() {
     if (Date.now() - _priceCache.t < 30_000 && _priceCache.v > 0) return _priceCache.v;
 
     const [cbRes, binRes] = await Promise.allSettled([
-      fetch("https://api.coinbase.com/v2/prices/SOL-USD/spot", { timeout: 4000 }),
-      fetch("https://api.binance.com/api/v3/ticker/price?symbol=SOLUSDT", { timeout: 4000 }),
+      fetch("https://api.coinbase.com/v2/prices/SOL-USD/spot", { timeout: 3000 }),
+      fetch("https://api.binance.com/api/v3/ticker/price?symbol=SOLUSDT", { timeout: 3000 }),
     ]);
 
     const vals = [];
@@ -251,7 +251,7 @@ async function getWelcomeState(wallet) {
   try {
     const r = await fetch(
       `http://127.0.0.1:${PORT}/promo/welcome/state?wallet=${encodeURIComponent(wallet)}`,
-      { timeout: 4000 }
+      { timeout: 3000 }
     );
     if (!r.ok) return null;
     return await r.json();
@@ -1695,7 +1695,7 @@ app.use(async (req, res, next) => {
         const url = `http://127.0.0.1:${PORT}/admin/fake/status?wallet=${encodeURIComponent(
           w
         )}`;
-        const r = await fetch(url, { timeout: 4000 });
+        const r = await fetch(url, { timeout: 3000 });
         if (!r.ok) {
           const msg = `status ${r.status}`;
           socket.emit("fake:error", { message: msg });
@@ -2033,3 +2033,4 @@ main().catch((e) => {
   console.error("Fatal on boot:", e);
   process.exit(1);
 });
+
