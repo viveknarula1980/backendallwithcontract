@@ -471,7 +471,7 @@ async function main() {
   app.set("trust proxy", true);
 
   // ---------- CORS ----------
-  const defaultAllowed = ["https://api.zoggy.io", "http://51.20.249.35:3000", "http://localhost:3000"];
+  const defaultAllowed = ["https://api.zoggy.io", "http://34.63.31.167:3000", "http://localhost:3000"];
   const ALLOW_ORIGINS = (process.env.ALLOW_ORIGINS || defaultAllowed.join(","))
     .split(",")
     .map((s) => s.trim())
@@ -2033,4 +2033,5 @@ main().catch((e) => {
   console.error("Fatal on boot:", e);
   process.exit(1);
 });
+
 
