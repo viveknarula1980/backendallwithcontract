@@ -100,7 +100,7 @@ function getClientIp(req) {
 // ---------- USDT conversion helpers ----------
 const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL || process.env.SITE_URL || "https://api.zoggy.io";
-const PORT = Number(process.env.PORT || 3000);
+const PORT = Number(process.env.PORT || 4000);
 
 // Build absolute /maintenance URL for redirects
 function buildMaintenanceUrl(redirectUrl) {
@@ -2033,6 +2033,7 @@ main().catch((e) => {
   console.error("Fatal on boot:", e);
   process.exit(1);
 });
+
 
 
 
